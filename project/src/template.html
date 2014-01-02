@@ -1,0 +1,46 @@
+<div class='wrap'>
+{{#greeting}}
+<p> What do you want to do today? </p>
+
+<button on-tap='enterExercises'> Enter New Exercises </button>
+
+<button on-tap='generate'> Generate a workout </button>
+
+<button on-tap='record'> Record a workout </button>
+
+{{/greeting}}
+
+{{#exercises}}
+<p> Enter the excerise details below to store it </p>
+
+<form name="myForm">
+	<input type="text" name="exerciseName" required placeholder="Exercise Name" value="">
+	<input type="text" name="exerciseMuscles" value="" size="40">
+
+</form>
+
+<button on-tap='saveExercise'> Save Exercise </button>
+
+<button on-tap='reset'> Go back to main menu </button>
+
+<table class='exerciseList'>
+	<tr>
+		<th>Exercise Name</th>
+		<th>Muscles Targeted</th>
+	</tr>
+{{#exerciseList}}
+	<tr>
+		<td>{{name}}</td>
+		<td>{{muscles}}</td>
+	</tr>
+</table>
+{{/exerciseList}}
+{{/exercises}}
+
+{{#generate}}
+{{/generate}}
+
+{{#record}}
+{{/record}}
+
+</div>

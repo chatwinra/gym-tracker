@@ -1,0 +1,18 @@
+.wrap {
+	position: relative;
+	max-width: 70em;
+	height: 100%;
+	margin: 0 auto 2em auto;
+	padding: 4em 0 0 0;
+	@include clearfix;
+
+
+}
+
+container {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+

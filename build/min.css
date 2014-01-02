@@ -1,0 +1,175 @@
+@media -sass-debug-info{filename{}line{font-family:\000033}}
+body {
+  font-family: 'Karla', 'Arial', 'serif';
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  min-width: 20em;
+  line-height: 1.5;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000317}}
+html:before {
+  content: "";
+  background: url(assets/background.jpg);
+  background-size: cover;
+  opacity: 0.4;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000329}}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0 0 0.4em 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000334}}
+h1 {
+  font-size: 3em;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000338}}
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000342}}
+h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000348}}
+p {
+  margin: 0 0 1em 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000352}}
+a {
+  color: #3365e2;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000357}}
+button {
+  border: 1px solid #777777;
+  background: #386BF5;
+  color: white;
+  padding: 0.3em;
+  cursor: pointer;
+  border-radius: 0.3em;
+  display: block;
+  margin: 0 auto 0.5em auto;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000368}}
+.info {
+  background-color: #eee;
+  border: 1px solid #aaa;
+  border-radius: 0.2em;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  padding: 1em 2em;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/richardchatwin\/Sites\/gym-tracker\/Project\/styles\/layout\.scss}line{font-family:\000031}}
+.wrap {
+  position: relative;
+  max-width: 70em;
+  height: 100%;
+  margin: 0 auto 2em auto;
+  padding: 4em 0 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/richardchatwin\/Sites\/gym-tracker\/Project\/styles\/_base\.scss}line{font-family:\0000324}}
+.wrap:before, .wrap:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/richardchatwin\/Sites\/gym-tracker\/Project\/styles\/_base\.scss}line{font-family:\0000329}}
+.wrap:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/richardchatwin\/Sites\/gym-tracker\/Project\/styles\/_base\.scss}line{font-family:\0000333}}
+.wrap {
+  *zoom: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/richardchatwin\/Sites\/gym-tracker\/Project\/styles\/layout\.scss}line{font-family:\0000312}}
+container {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/richardchatwin\/Sites\/gym-tracker\/Project\/styles\/footer\.scss}line{font-family:\000033}}
+footer, .push {
+  background-color: #FFFFFF;
+  margin: 0;
+  height: 0.1em;
+  padding: 1em;
+  background: white;
+  background-size: auto 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/richardchatwin\/Sites\/gym-tracker\/Project\/styles\/_base\.scss}line{font-family:\0000324}}
+footer:before, footer:after, .push:before, .push:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/richardchatwin\/Sites\/gym-tracker\/Project\/styles\/_base\.scss}line{font-family:\0000329}}
+footer:after, .push:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/richardchatwin\/Sites\/gym-tracker\/Project\/styles\/_base\.scss}line{font-family:\0000333}}
+footer, .push {
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/richardchatwin\/Sites\/gym-tracker\/Project\/styles\/footer\.scss}line{font-family:\0000313}}
+footer p, .push p {
+  font-size: 0.8em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/richardchatwin\/Sites\/gym-tracker\/Project\/styles\/footer\.scss}line{font-family:\0000318}}
+.footer-smallprint {
+  color: #DBDBDB;
+  font-size: 0.8em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/richardchatwin\/Sites\/gym-tracker\/Project\/styles\/header\.scss}line{font-family:\000033}}
+header {
+  background-color: white;
+  padding: 0.5em 1em;
+  margin: 0 0 1em 0;
+  border-bottom: 1px solid #999;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/richardchatwin\/Sites\/gym-tracker\/Project\/styles\/header\.scss}line{font-family:\0000310}}
+header h1 {
+  font-size: 2em;
+  line-height: 1;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/richardchatwin\/Sites\/gym-tracker\/Project\/styles\/header\.scss}line{font-family:\0000317}}
+.nav {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/richardchatwin\/Sites\/gym-tracker\/Project\/styles\/header\.scss}line{font-family:\0000323}}
+.nav img {
+  height: 2em;
+}
